@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/sdk/!svn/ver/141927/trunk/1.4/samples/Media/app/assistants
+END
+audioObject-assistant.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sdk/!svn/ver/141932/trunk/1.4/samples/Media/app/assistants/audioObject-assistant.js
+END
+stage-assistant.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/sdk/!svn/ver/141927/trunk/1.4/samples/Media/app/assistants/stage-assistant.js
+END
+videoPlayer-assistant.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sdk/!svn/ver/141927/trunk/1.4/samples/Media/app/assistants/videoPlayer-assistant.js
+END
+embedded-assistant.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/sdk/!svn/ver/141927/trunk/1.4/samples/Media/app/assistants/embedded-assistant.js
+END
+main-assistant.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/sdk/!svn/ver/141927/trunk/1.4/samples/Media/app/assistants/main-assistant.js
+END
+audioPlayer-assistant.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/sdk/!svn/ver/141932/trunk/1.4/samples/Media/app/assistants/audioPlayer-assistant.js
+END

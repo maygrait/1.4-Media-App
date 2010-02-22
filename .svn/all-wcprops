@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/sdk/!svn/ver/141926/trunk/1.4/samples/Media
+END
+framework_config.json
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/sdk/!svn/ver/141927/trunk/1.4/samples/Media/framework_config.json
+END
+icon.png
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/sdk/!svn/ver/141927/trunk/1.4/samples/Media/icon.png
+END
+appinfo.json
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/sdk/!svn/ver/141927/trunk/1.4/samples/Media/appinfo.json
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/sdk/!svn/ver/141932/trunk/1.4/samples/Media/index.html
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/sdk/!svn/ver/141927/trunk/1.4/samples/Media/.project
+END
+sources.json
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/sdk/!svn/ver/141927/trunk/1.4/samples/Media/sources.json
+END
