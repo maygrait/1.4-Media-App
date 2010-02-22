@@ -81,34 +81,6 @@ AudioObjectAssistant.prototype.setup = function () {
 	this.playing = false;
 	this.stopped = false;
 };
-/* 
- * This method is only for webOS versions less than 1.4, it waits for the media 
- * ready callback before playing the music
- * For 1.4 versions the audio takes care of playing the music
- */
-AudioObjectAssistant.prototype.startMusicPlayback = function() {
-	this.musicPlayer = AudioTag.extendElement('audio-a-div', this.controller);
-	var connectFn = function(event){
-		try{
-			event.target.removeEventListener('x-palm-connect', connectFn, false);
-			event.target.palm.audioClass = 'media';
-			event.target.autoplay = true;
-			event.target.src = Mojo.appPath+"sounds/media.mp3";
-		}
-		catch(e){
-			Mojo.Log.error("exception in startMusicPlayback connect callback"+e.message);
-		}
-		};
-
-	this.musicPlayer.addEventListener('x-palm-connect', connectFn, false);
-}
-/*
- * For versions before 1.4 we have to wait for the ready callback before calling mediaSetup 
- */
-AudioObjectAssistant.prototype.mediaOnConnect = function(){
-	this.mediaSetup();
-	this.myAudioObj.removeEventListener('x-palm-connect', this.mediaOnConnectBound, false);
-}
 /*
  * For 1.4 we don't have media setup can continue immediately 
  * (no 'x-palm-connect' required) as element is part of browser. 
@@ -124,7 +96,7 @@ AudioObjectAssistant.prototype.mediaSetup = function(){
 	this.myAudioObj.addEventListener('error', this.mediaHandleEventBound, false);
 	this.myAudioObj.addEventListener('canplay', this.mediaHandleEventBound, false);
 
-	this.myAudioObj.src = Mojo.appPath+"sounds/a.mp3";
+	this.myAudioObj.src = '/media/internal/ringtones/Triangle (short).mp3';
 	this.playing = true;
 }
 AudioObjectAssistant.prototype.mediaHandleEvent = function(event){

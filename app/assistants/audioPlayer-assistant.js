@@ -54,7 +54,7 @@ AudioPlayerAssistant.prototype.handleButtonPressed = function(event) {
 	{
 		method: 'open',
 		parameters: {
-			target : Mojo.appPath + "sounds/song.mp3"
+			target : "/media/internal/ringtones/Flurry.mp3ê"
 		},
 		onSuccess: function(status){
             $('area-to-update').update(Object.toJSON(status));
@@ -74,7 +74,7 @@ AudioPlayerAssistant.prototype.handleButton3Pressed = function(event) {
 		parameters: {
 			id : 'com.palm.app.streamingmusicplayer',
 			params: {
-				target : Mojo.appPath + "sounds/song.mp3"
+				target : '/media/internal/ringtones/Guitar.mp3'
 			}
 		},
 		onSuccess: function(status){
