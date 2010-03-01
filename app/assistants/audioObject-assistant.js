@@ -27,8 +27,7 @@ AudioObjectAssistant.prototype.setup = function () {
 	//Display webOS version number
 	this.controller.get('version').update('WebOS version ' + dInfo.platformVersionMajor + "." + dInfo.platformVersionMinor);
 	try{
-		// Get the device version, if before 1.4 thehe <audio> tag in the scene will not do anything.
-		// Use extendElement(), etc., to start music playback.
+		
 		// Now setup the second audio
 		if (this.libs && this.libs.mediaextension){
 			
@@ -231,4 +230,5 @@ AudioObjectAssistant.prototype.showDialogBox = function (title, message) {
 		choices: [ {label: 'OK', value: 'OK', type: 'color'} ]
 	});
 };
+
 
